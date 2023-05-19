@@ -1,0 +1,27 @@
+body{
+    width:610px;
+}
+#frmCheckPassword {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#password-strength-status {
+    padding: 5px 10px;
+    color: #FFFFFF; 
+    border-radius:4px;
+    margin-top:5px;
+    width: 35%;
+    margin: auto;
+}
+.medium-password{
+    background-color: #E4DB11;
+    border:#BBB418 1px solid;
+}
+.weak-password{
+    background-color: red;
+    border:#AA4502 1px solid;
+}
+.strong-password{
+    background-color: #12CC1A;
+    border:#0FA015 1px solid;
+}
+

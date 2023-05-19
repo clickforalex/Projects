@@ -1,0 +1,60 @@
+.form {
+    background-color: #2e2d2c;
+    text-align: center;
+    padding-bottom: 3em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#backgroundImg {
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(-45deg, white, #A9A9A9, white, #C0C0C0);
+    background-size: 400% 400%;
+    position: relative;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    animation: myAnimation 2s ease-in-out infinite;
+}
+
+input {
+    padding: .5em;
+    margin-top: .2em;
+    font-size: 32px;
+}
+
+h3 {
+    padding-left: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+    font-weight: bold;
+}
+
+button {
+    padding: .5em;
+    font-size: 20px;
+}
+
+@keyframes myAnimation {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+}
+input[type=submit]:hover{
+    background-color: black;
+}

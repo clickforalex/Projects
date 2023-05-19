@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer 1 */
+
+#empty {
+    float: left;
+    display: block;
+    max-width: 50vw;
+    visibility: hidden;
+}
+
+#footer1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #3D3C3A;
+    color: white;
+    padding-top: 1em;
+}
+
+#footer1 li {
+    list-style-type: none;
+    padding-top: .3em;
+    color: white;
+    margin-bottom: .6em;
+}
+
+#footer1 li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#footer1 ul>li+li {
+    border-top: 1px solid #ececec;
+}
+
+/* Shop Container */
+
+#shop-footer {
+    padding: 1em;
+}
+
+/* End of Shop Container */
+
+/* Support Container */
+
+#support-footer {
+    padding: 1em;
+}
+
+/* End of Support Container */
+
+span {
+    font-size: 22px;
+}
+
+/* Footer */
+
+footer {
+    padding: .5em;
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social-media-icons {
+    display: flex;
+    padding: 1em;
+    padding-top: 1em;
+}
+
+h3 {
+    padding-left: 1em;
+}
