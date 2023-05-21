@@ -1,6 +1,6 @@
 # Web Design and Development Project
 
-This project was done by me during my 2nd Year in Nanyang Polytechnic as a Infocom and Media Engineering Student.
+This project was done by me during my 2nd Year in Nanyang Polytechnic in 2022 as a Infocom and Media Engineering Student.
 I created a mock e-commerce website to simulate the following:
   - Signup, Login, Logout
   - Admin Accounts are able to add, edit, and delete items in the e-commerce website
