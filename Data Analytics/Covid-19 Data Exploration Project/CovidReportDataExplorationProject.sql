@@ -41,7 +41,8 @@ order by 1,2
 
 
 /* Total population in the world who has been vaccinated */
--- CTE
+-- Using CTE to perform Calculation on Partition By in previous query
+
 With PopVac (Continent, Location, Date, Population, new_vaccinations, PeopleVaccinated)
 as
 (
@@ -57,7 +58,6 @@ where cd.continent is NOT NULL
 Select *, (PeopleVaccinated/Population)*100
 from PopVac
 
--- Temp Table
 -- Drop Table if exists #PercentPopVac
 Create Table #PercentPopVac
 (
@@ -82,7 +82,7 @@ where cd.continent is NOT NULL
 Select *, (PeopleVaccinated/Population)*100
 from #PercentPopVac
 
-/* Create View to store data visualization */
+/* Creating View to store data for visualization */
 Create View PercentagePopVac as
 Select cd.continent, cd.location, cd.date, cd.population, cv.new_vaccinations,
 SUM(cast(cv.new_vaccinations as int)) over (Partition by cd.location order by cd.location, cd.date) 
