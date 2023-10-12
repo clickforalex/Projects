@@ -34,7 +34,7 @@ group by continent
 order by TotalDeaths desc
 
 /* Global */
-Select SUM((new_cases)) as TotalCases, SUM(cast(new_deaths as int)) as TotalDeaths, (SUM(cast(new_deaths as int))/SUM(new_cases))* 100 as DeathPercentage
+Select SUM(Population) as TotalPopulation, SUM((new_cases)) as TotalCases, SUM(cast(new_deaths as int)) as TotalDeaths, (SUM(cast(new_deaths as int))/SUM(new_cases))* 100 as DeathPercentage
 From PortfolioProject..CovidDeaths
 where continent is not NULL
 order by 1,2
