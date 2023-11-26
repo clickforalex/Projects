@@ -1,14 +1,15 @@
 # Web Design and Development Project
 
-This project was done by me during my 2nd Year in Nanyang Polytechnic in 2022 as a Infocom and Media Engineering Student.
-I created a mock e-commerce website to simulate the following:
-  - Signup, Login, Logout
-  - Admin Accounts are able to add, edit, and delete items in the e-commerce website
-  - Customer User accounts are able to
-    - Add items to cart
-    - Add and Substract Quantity in cart
-    - Remove Item from cart
-    - Edit Profile Picture, Change Password and Email
-    - Make purchases, assign date of Delivery, and View Order History, Cancelled Orders and Successful Orders
-  - Added Items, Accounts created, and Data edited will be updated into SQL Database
-  - Admin Accounts have extra features such as adding items to the website category while Customer user accounts don't
+During my second year at Nanyang Polytechnic in 2022, as a student studying Infocom and Media Engineering, I undertook a project involving the development of a simulated e-commerce website. The key functionalities of this project included:
+
+- Implementation of Signup, Login, and Logout features.
+ - Provision for Admin Accounts to manage items by adding, editing, or deleting them     from the e-commerce platform.
+ - Functionality for Customer User accounts to:
+ - Add items to their cart.
+ - Adjust item quantities within the cart (addition and subtraction).
+ - Remove items from the cart.
+ - Modify profile picture, change passwords, and update email addresses.
+ - Conduct purchases, set delivery dates, and access Order History encompassing both     cancelled and successful orders.
+- All additions of items, account creations, and data modifications were         
+  systematically updated in an SQL Database.
+- Admin Accounts were endowed with additional privileges, including the ability to      categorize items on the website, a feature not available to Customer User accounts.
