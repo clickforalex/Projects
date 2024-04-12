@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generated</title>
+</head>
+<body>
+    <h1>QR Code Generated</h1>
+    <p><strong>Username:</strong> {{ username }}</p>
+    <p><strong>Phone Number:</strong> {{ phone_number }}</p>
+    <p><strong>Email:</strong> {{ email }}</p>
+    <img src="{{ url_for('static', filename=qr_filename) }}" alt="QR Code">
+
+</body>
+</html>
